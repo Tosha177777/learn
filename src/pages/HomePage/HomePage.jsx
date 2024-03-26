@@ -23,6 +23,24 @@ const HomePage = () => {
           </div>
           <div className="laptop"></div>
         </div>
+        <ul className="numberList">
+          <li className="numberItems">
+            <h3 className="numbers">32,000 +</h3>
+            <p className="advantages">Experienced tutors</p>
+          </li>
+          <li className="numberItems">
+            <h3 className="numbers">300,000 +</h3>
+            <p className="advantages">5-star tutor reviews</p>
+          </li>
+          <li className="numberItems">
+            <h3 className="numbers">120 +</h3>
+            <p className="advantages">Subjects taught</p>
+          </li>
+          <li className="numberItems">
+            <h3 className="numbers">200 +</h3>
+            <p className="advantages">Tutor nationalities</p>
+          </li>
+        </ul>
       </div>
     </section>
   );
